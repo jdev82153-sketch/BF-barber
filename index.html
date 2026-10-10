@@ -1,33 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="theme-color" content="#090909">
+  <meta name="description" content="BF Barber. Precision cuts, clean details and personal style. Explore the work and get in touch to book your next cut.">
 
-  <title>BF Barber | Craft. Culture. Identity.</title>
-
-  <meta
-    name="description"
-    content="Discover BF Barber — a world of barbering, personal style, creative work and collaborations."
-  >
-
-  <meta property="og:title" content="BF Barber | Craft. Culture. Identity.">
-  <meta
-    property="og:description"
-    content="More than a cut. It's a statement."
-  >
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/IMG_7102.jpeg">
+  <title>BF Barber | Your Cut. Your Signature.</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 
@@ -36,38 +21,39 @@
 
 <body>
 
-  <!-- PAGE LOADER / PROGRESS -->
   <div class="page-progress" aria-hidden="true"></div>
 
   <!-- HEADER -->
-  <header class="site-header" id="top">
-    <div class="container header-inner">
+  <header class="site-header">
+    <div class="header-inner">
 
       <a href="#top" class="brand" aria-label="BF Barber home">
-        <span class="brand-mark">BF</span>
-        <span class="brand-name">
-          <strong>BF BARBER</strong>
-          <small>CRAFT. CULTURE. IDENTITY.</small>
-        </span>
+        <span class="brand-mark">BF<span>.</span></span>
+        <span class="brand-name">BARBER</span>
       </a>
 
       <button
         class="menu-toggle"
         type="button"
-        aria-label="Open navigation"
+        aria-label="Toggle navigation"
         aria-expanded="false"
         aria-controls="main-navigation"
       >
         <span></span>
         <span></span>
+        <span></span>
       </button>
 
-      <nav class="main-navigation" id="main-navigation">
-        <a href="#about">THE BRAND</a>
-        <a href="#work">THE WORK</a>
-        <a href="#collaborations">COLLABORATIONS</a>
-        <a href="#gallery">GALLERY</a>
-        <a href="#contact" class="nav-cta">GET IN TOUCH <span>↗</span></a>
+      <nav
+        class="main-navigation"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a href="#about">About</a>
+        <a href="#work">The Work</a>
+        <a href="#collaborations">Collaborations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="nav-cta">Book a Cut <span>↗</span></a>
       </nav>
 
     </div>
@@ -76,195 +62,144 @@
   <main>
 
     <!-- HERO -->
-    <section class="hero">
-      <div class="hero-background" aria-hidden="true"></div>
+    <section class="hero hero-minimal" id="top">
 
-      <div class="container hero-grid">
+      <div class="hero-minimal-image">
+        <img
+          src="assets/IMG_7102.jpeg"
+          alt="BF Barber and the brand behind the craft"
+          fetchpriority="high"
+        >
+      </div>
 
-        <div class="hero-content reveal">
+      <div class="hero-minimal-overlay"></div>
 
-          <div class="eyebrow">
-            <span class="eyebrow-line"></span>
-            <span>WELCOME TO BF BARBER</span>
-          </div>
+      <div class="hero-minimal-content">
 
-          <h1>
-            MORE THAN<br>
-            A <span class="outline-text">CUT.</span><br>
-            <span class="gold-text">A STATEMENT.</span>
-          </h1>
+        <span class="hero-minimal-label">
+          INDEPENDENT BARBER · PERSONAL STYLE
+        </span>
 
-          <p class="hero-description">
-            Style is personal. The details matter.
-            Discover the craft, the people and the culture
-            behind BF Barber.
-          </p>
+        <h1>
+          YOUR CUT.
+          <span>YOUR SIGNATURE.</span>
+        </h1>
 
-          <div class="hero-actions">
-            <a href="#work" class="button button-gold">
-              EXPLORE THE WORK <span>↗</span>
-            </a>
+        <p>
+          Sharp cuts. Clean details.
+          Your style, perfected.
+        </p>
 
-            <a href="#about" class="text-link">
-              DISCOVER BF <span>↓</span>
-            </a>
-          </div>
+        <div class="hero-minimal-actions">
+          <a
+            href="https://wa.me/447888620182"
+            class="hero-minimal-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BOOK YOUR CUT <span aria-hidden="true">↗</span>
+          </a>
 
-          <div class="hero-bottom-note">
-            <span class="status-dot"></span>
-            <span>BARBERING · STYLE · COLLABORATIONS</span>
-          </div>
-
+          <a href="#work" class="hero-minimal-secondary">
+            EXPLORE THE WORK
+          </a>
         </div>
 
-        <div class="hero-visual reveal">
-
-          <div class="hero-image-frame">
-            <img
-              src="assets/IMG_7102.jpeg"
-              alt="BF Barber owner with the BF case"
-              fetchpriority="high"
-            >
-
-            <div class="image-corner image-corner-top"></div>
-            <div class="image-corner image-corner-bottom"></div>
-          </div>
-
-          <div class="hero-image-caption">
-            <span class="caption-index">BF / 001</span>
-            <span>BUILT ON IDENTITY.</span>
-          </div>
-
-          <div class="hero-side-label">BF BARBER — ORIGINAL CULTURE</div>
-
+        <div class="hero-minimal-bottom">
+          <span>BF BARBER</span>
+          <span>BUILT ON PRECISION</span>
         </div>
 
       </div>
-
-      <a href="#about" class="scroll-indicator">
-        <span>SCROLL TO EXPLORE</span>
-        <span class="scroll-line"></span>
-      </a>
-
     </section>
 
-    <!-- BRAND INTRODUCTION -->
-    <section class="about section-padding" id="about">
-
-      <div class="container">
-
-        <div class="section-topline reveal">
-          <span>01 / THE BRAND</span>
-          <span>AN INTRODUCTION TO BF</span>
-        </div>
-
-        <div class="about-grid">
-
-          <div class="about-image-wrap reveal">
-            <img
-              src="assets/IMG_7092.jpeg"
-              alt="BF Barber brand owner"
-              loading="lazy"
-            >
-
-            <div class="image-label">
-              <span>THE PERSON BEHIND BF</span>
-              <span>001 — BF</span>
-            </div>
-          </div>
-
-          <div class="about-content reveal">
-
-            <p class="section-kicker">MORE THAN APPEARANCES</p>
-
-            <h2>
-              IT'S NOT JUST<br>
-              HOW YOU <span class="gold-text">LOOK.</span><br>
-              IT'S HOW YOU<br>
-              SHOW UP.
-            </h2>
-
-            <p class="body-copy">
-              BF Barber brings together barbering, personal style
-              and creative collaborations. A space to showcase
-              the work, the people and the identity behind the brand.
-            </p>
-
-            <p class="body-copy">
-              From the chair to the final details, every image tells
-              a part of the BF story.
-            </p>
-
-            <a href="#collaborations" class="text-link">
-              MEET THE CULTURE <span>↗</span>
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- STATEMENT STRIP -->
-    <section class="statement-strip" aria-label="BF Barber brand statement">
+    <!-- BRAND STATEMENT -->
+    <div class="statement-strip" aria-label="Craft, culture and identity">
       <div class="statement-track">
         <span>CRAFT</span>
-        <span class="statement-star">✳</span>
         <span>CULTURE</span>
-        <span class="statement-star">✳</span>
         <span>IDENTITY</span>
-        <span class="statement-star">✳</span>
         <span>CRAFT</span>
-        <span class="statement-star">✳</span>
         <span>CULTURE</span>
-        <span class="statement-star">✳</span>
         <span>IDENTITY</span>
-        <span class="statement-star">✳</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-image reveal">
+          <img
+            src="assets/IMG_7092.jpeg"
+            alt="BF Barber owner"
+            loading="lazy"
+          >
+          <span class="image-caption">THE PERSON BEHIND THE CUT</span>
+        </div>
+
+        <div class="about-content reveal">
+
+          <span class="eyebrow">THE STORY</span>
+
+          <h2>
+            MORE THAN A CUT.<br>
+            <span>A PERSONAL STANDARD.</span>
+          </h2>
+
+          <p>
+            A great haircut is about more than how you look.
+            It is about confidence, attention to detail and
+            finding a style that feels like you.
+          </p>
+
+          <p>
+            BF Barber is built around the craft, the people
+            and the culture behind every cut. No unnecessary
+            noise. Just a focus on the details that matter.
+          </p>
+
+          <a href="#work" class="text-link">
+            SEE THE WORK <span aria-hidden="true">↗</span>
+          </a>
+
+        </div>
       </div>
     </section>
 
     <!-- THE WORK -->
-    <section class="work section-padding" id="work">
-
+    <section class="work-section" id="work">
       <div class="container">
 
-        <div class="section-topline reveal">
-          <span>02 / THE WORK</span>
-          <span>THE CRAFT IN ACTION</span>
-        </div>
-
         <div class="section-heading reveal">
-          <div>
-            <p class="section-kicker">PRECISION MEETS STYLE</p>
-            <h2>THE <span class="gold-text">WORK.</span></h2>
-          </div>
+          <span class="eyebrow">THE CRAFT</span>
 
-          <p class="heading-description">
-            The process. The details. The final look.
-            Explore selected moments from the BF Barber experience.
+          <h2>
+            EVERY DETAIL<br>
+            <span>MATTERS.</span>
+          </h2>
+
+          <p>
+            A closer look at the cuts, the process and the
+            attention behind the finished result.
           </p>
         </div>
 
         <div class="work-grid">
 
-          <article class="work-card work-card-large reveal">
+          <article class="work-card reveal">
             <div class="work-image">
               <img
                 src="assets/IMG_7098.jpeg"
                 alt="BF Barber haircut demonstration"
                 loading="lazy"
               >
-              <span class="work-number">01</span>
+              <span class="work-index">01 / DETAIL</span>
             </div>
 
-            <div class="work-card-info">
-              <div>
-                <h3>THE FINISH</h3>
-                <p>Details that make the difference.</p>
-              </div>
-              <span class="work-arrow">↗</span>
+            <div class="work-card-content">
+              <h3>The Details</h3>
+              <p>Clean execution. Intentional finishing.</p>
             </div>
           </article>
 
@@ -272,18 +207,15 @@
             <div class="work-image">
               <img
                 src="assets/IMG_7095.jpeg"
-                alt="Toby receiving a haircut"
+                alt="Toby getting a haircut"
                 loading="lazy"
               >
-              <span class="work-number">02</span>
+              <span class="work-index">02 / PROCESS</span>
             </div>
 
-            <div class="work-card-info">
-              <div>
-                <h3>THE PROCESS</h3>
-                <p>Behind the chair.</p>
-              </div>
-              <span class="work-arrow">↗</span>
+            <div class="work-card-content">
+              <h3>The Process</h3>
+              <p>Every cut starts with attention.</p>
             </div>
           </article>
 
@@ -291,175 +223,127 @@
             <div class="work-image">
               <img
                 src="assets/IMG_7097.jpeg"
-                alt="Ethan during a haircut"
+                alt="Ethan getting a haircut"
                 loading="lazy"
               >
-              <span class="work-number">03</span>
+              <span class="work-index">03 / PRECISION</span>
             </div>
 
-            <div class="work-card-info">
-              <div>
-                <h3>THE EXPERIENCE</h3>
-                <p>Every cut has its own story.</p>
-              </div>
-              <span class="work-arrow">↗</span>
+            <div class="work-card-content">
+              <h3>The Precision</h3>
+              <p>Sharp lines. A considered finish.</p>
             </div>
           </article>
 
-          <article class="work-card work-card-wide reveal">
+          <article class="work-card reveal">
             <div class="work-image">
               <img
                 src="assets/IMG_7100.jpeg"
-                alt="BF Barber at work"
+                alt="BF Barber working on a haircut"
                 loading="lazy"
               >
-              <span class="work-number">04</span>
+              <span class="work-index">04 / THE CRAFT</span>
             </div>
 
-            <div class="work-card-info">
-              <div>
-                <h3>IN THE CHAIR</h3>
-                <p>Real moments. Real craft.</p>
-              </div>
-              <span class="work-arrow">↗</span>
+            <div class="work-card-content">
+              <h3>The Craft</h3>
+              <p>Focus on the work, every time.</p>
             </div>
           </article>
 
         </div>
 
-      </div>
+        <div class="section-action reveal">
+          <a
+            href="https://wa.me/447888620182"
+            class="button-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GET IN TOUCH <span aria-hidden="true">↗</span>
+          </a>
+        </div>
 
+      </div>
     </section>
 
     <!-- COLLABORATIONS -->
-    <section class="collaborations section-padding" id="collaborations">
-
+    <section class="collaborations-section" id="collaborations">
       <div class="container">
 
-        <div class="section-topline reveal">
-          <span>03 / COLLABORATIONS</span>
-          <span>PEOPLE · CONNECTIONS · CULTURE</span>
-        </div>
-
         <div class="section-heading reveal">
-          <div>
-            <p class="section-kicker">BEYOND THE CHAIR</p>
-            <h2>BUILT THROUGH<br><span class="gold-text">CONNECTIONS.</span></h2>
-          </div>
+          <span class="eyebrow">GOOD PEOPLE. GOOD WORK.</span>
 
-          <p class="heading-description">
-            A closer look at the people and creative connections
-            featured in the BF Barber story.
+          <h2>
+            BUILT THROUGH<br>
+            <span>COLLABORATION.</span>
+          </h2>
+
+          <p>
+            The people, connections and creative moments
+            that are part of the BF Barber journey.
           </p>
         </div>
 
-        <div class="collab-grid">
+        <div class="collaboration-grid">
 
-          <!-- TOBY -->
-          <article class="collab-card collab-featured reveal">
+          <article class="collaboration-card reveal">
+            <img
+              src="assets/IMG_7094.jpeg"
+              alt="BF Barber with Toby"
+              loading="lazy"
+            >
 
-            <div class="collab-image">
-              <img
-                src="assets/IMG_7094.jpeg"
-                alt="BF Barber with Toby"
-                loading="lazy"
-              >
-
-              <span class="collab-tag">BF / PEOPLE</span>
+            <div class="collaboration-content">
+              <span>01 / PEOPLE</span>
+              <h3>Good People</h3>
             </div>
-
-            <div class="collab-content">
-              <span class="collab-index">COLLABORATION 001</span>
-              <h3>BF <span>×</span> TOBY</h3>
-              <p>A moment from the BF Barber community.</p>
-              <a href="#gallery" class="text-link">
-                VIEW THE GALLERY <span>↗</span>
-              </a>
-            </div>
-
           </article>
 
-          <!-- ETHAN -->
-          <article class="collab-card reveal">
+          <article class="collaboration-card reveal">
+            <img
+              src="assets/IMG_7096.jpeg"
+              alt="BF Barber with Ethan"
+              loading="lazy"
+            >
 
-            <div class="collab-image">
-              <img
-                src="assets/IMG_7096.jpeg"
-                alt="BF Barber with Ethan"
-                loading="lazy"
-              >
-
-              <span class="collab-tag">BF / PEOPLE</span>
+            <div class="collaboration-content">
+              <span>02 / COMMUNITY</span>
+              <h3>Real Connections</h3>
             </div>
+          </article>
 
-            <div class="collab-content">
-              <span class="collab-index">COLLABORATION 002</span>
-              <h3>BF <span>×</span> ETHAN</h3>
-              <p>People and moments connected through the brand.</p>
-              <a href="#gallery" class="text-link">
-                VIEW THE GALLERY <span>↗</span>
-              </a>
+          <article class="collaboration-card reveal">
+            <img
+              src="assets/IMG_7099.jpeg"
+              alt="BF X JD collaboration"
+              loading="lazy"
+            >
+
+            <div class="collaboration-content">
+              <span>03 / CREATIVE WORK</span>
+              <h3>BF X JD</h3>
             </div>
-
           </article>
 
         </div>
-
-        <!-- BF X JD -->
-        <article class="jd-collaboration reveal">
-
-          <div class="jd-collab-image">
-            <img
-              src="assets/IMG_7099.jpeg"
-              alt="BF X JD Collaboration"
-              loading="lazy"
-            >
-          </div>
-
-          <div class="jd-collab-content">
-            <p class="section-kicker">A CREATIVE CONNECTION</p>
-
-            <h2>
-              BF <span class="gold-text">×</span> JD
-            </h2>
-
-            <p class="jd-subtitle">COLLABORATION</p>
-
-            <p class="body-copy">
-              A featured collaboration within the BF Barber universe.
-              Discover the image, the people and the creative work
-              behind this connection.
-            </p>
-
-            <a href="#contact" class="button button-outline">
-              CONNECT WITH BF <span>↗</span>
-            </a>
-          </div>
-
-        </article>
-
       </div>
-
     </section>
 
     <!-- GALLERY -->
-    <section class="gallery section-padding" id="gallery">
-
+    <section class="gallery-section" id="gallery">
       <div class="container">
 
-        <div class="section-topline reveal">
-          <span>04 / THE GALLERY</span>
-          <span>BF BARBER — VISUAL JOURNAL</span>
-        </div>
-
         <div class="section-heading reveal">
-          <div>
-            <p class="section-kicker">A LOOK INSIDE</p>
-            <h2>THE <span class="gold-text">CULTURE.</span></h2>
-          </div>
+          <span class="eyebrow">A CLOSER LOOK</span>
 
-          <p class="heading-description">
-            Faces, details and moments that capture the world of BF Barber.
+          <h2>
+            THE WORLD OF<br>
+            <span>BF BARBER.</span>
+          </h2>
+
+          <p>
+            The work, the people and the moments behind the brand.
           </p>
         </div>
 
@@ -467,215 +351,213 @@
 
           <a
             href="assets/IMG_7092.jpeg"
-            class="gallery-item gallery-item-tall reveal"
+            class="gallery-item reveal"
             target="_blank"
-            rel="noopener"
-            aria-label="View BF Barber owner photo"
+            rel="noopener noreferrer"
+            aria-label="View BF Barber portrait"
           >
             <img
               src="assets/IMG_7092.jpeg"
-              alt="BF Barber owner portrait"
+              alt="BF Barber portrait"
               loading="lazy"
             >
-            <span class="gallery-overlay">
-              <span>THE FOUNDER</span>
-              <span class="gallery-plus">↗</span>
-            </span>
+            <span class="gallery-overlay">01 <span>↗</span></span>
           </a>
 
           <a
             href="assets/IMG_7095.jpeg"
             class="gallery-item reveal"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             aria-label="View Toby haircut photo"
           >
             <img
               src="assets/IMG_7095.jpeg"
-              alt="Toby getting a haircut"
+              alt="Toby haircut"
               loading="lazy"
             >
-            <span class="gallery-overlay">
-              <span>THE PROCESS</span>
-              <span class="gallery-plus">↗</span>
-            </span>
+            <span class="gallery-overlay">02 <span>↗</span></span>
           </a>
 
           <a
             href="assets/IMG_7097.jpeg"
             class="gallery-item reveal"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             aria-label="View Ethan haircut photo"
           >
             <img
               src="assets/IMG_7097.jpeg"
-              alt="Ethan getting a haircut"
+              alt="Ethan haircut"
               loading="lazy"
             >
-            <span class="gallery-overlay">
-              <span>THE EXPERIENCE</span>
-              <span class="gallery-plus">↗</span>
-            </span>
+            <span class="gallery-overlay">03 <span>↗</span></span>
+          </a>
+
+          <a
+            href="assets/IMG_7100.jpeg"
+            class="gallery-item reveal"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View barber at work"
+          >
+            <img
+              src="assets/IMG_7100.jpeg"
+              alt="Barber at work"
+              loading="lazy"
+            >
+            <span class="gallery-overlay">04 <span>↗</span></span>
           </a>
 
           <a
             href="assets/IMG_7101.jpeg"
             class="gallery-item reveal"
             target="_blank"
-            rel="noopener"
-            aria-label="View BF Barber QR code feature"
+            rel="noopener noreferrer"
+            aria-label="View BF Barber QR code photo"
           >
             <img
               src="assets/IMG_7101.jpeg"
-              alt="Person wearing a shirt featuring a QR code"
+              alt="BF Barber QR code branding"
               loading="lazy"
             >
-            <span class="gallery-overlay">
-              <span>THE DETAILS</span>
-              <span class="gallery-plus">↗</span>
-            </span>
+            <span class="gallery-overlay">05 <span>↗</span></span>
           </a>
 
           <a
             href="assets/IMG_7102.jpeg"
-            class="gallery-item gallery-item-wide reveal"
+            class="gallery-item reveal"
             target="_blank"
-            rel="noopener"
-            aria-label="View BF Barber case photo"
+            rel="noopener noreferrer"
+            aria-label="View BF Barber brand photo"
           >
             <img
               src="assets/IMG_7102.jpeg"
-              alt="BF Barber owner with the BF case"
+              alt="BF Barber brand photo"
               loading="lazy"
             >
-            <span class="gallery-overlay">
-              <span>THE BF IDENTITY</span>
-              <span class="gallery-plus">↗</span>
-            </span>
+            <span class="gallery-overlay">06 <span>↗</span></span>
           </a>
 
         </div>
-
       </div>
-
     </section>
 
-    <!-- QR / BRAND DETAIL -->
-    <section class="brand-detail">
+    <!-- BRAND FEATURE -->
+    <section class="brand-feature">
+      <div class="container brand-feature-inner">
 
-      <div class="container brand-detail-grid">
-
-        <div class="brand-detail-content reveal">
-          <p class="section-kicker">EVERY DETAIL MATTERS</p>
+        <div class="brand-feature-content reveal">
+          <span class="eyebrow">THE BF STANDARD</span>
 
           <h2>
-            RECOGNIZE<br>
-            THE <span class="gold-text">BRAND.</span>
+            GOOD CUTS.<br>
+            <span>GOOD ENERGY.</span>
           </h2>
 
-          <p class="body-copy">
-            BF Barber is more than an image.
-            It's the people, the work and the details that bring
-            the brand to life.
+          <p>
+            Style is personal. The details make the difference.
+            Connect with BF Barber and take the next step
+            toward your next cut.
           </p>
 
-          <a href="#contact" class="text-link">
-            GET IN TOUCH <span>↗</span>
+          <a
+            href="https://wa.me/447888620182"
+            class="button-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LET'S TALK <span aria-hidden="true">↗</span>
           </a>
         </div>
 
-        <div class="brand-detail-image reveal">
+        <div class="brand-feature-image reveal">
           <img
             src="assets/IMG_7101.jpeg"
-            alt="BF-related QR code design"
+            alt="BF Barber branding and QR code"
             loading="lazy"
           >
-          <span class="detail-image-caption">BF / BRAND DETAILS</span>
         </div>
 
       </div>
-
     </section>
 
     <!-- CONTACT -->
-    <section class="contact section-padding" id="contact">
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
 
-      <div class="container">
+        <div class="contact-content reveal">
+          <span class="eyebrow">YOUR NEXT MOVE</span>
 
-        <div class="contact-panel reveal">
+          <h2>
+            READY FOR<br>
+            <span>YOUR NEXT CUT?</span>
+          </h2>
 
-          <div class="contact-decoration" aria-hidden="true">BF</div>
+          <p>
+            Get in touch to ask about availability and
+            arrange your next appointment.
+          </p>
 
-          <div class="contact-content">
-            <p class="section-kicker">LET'S CONNECT</p>
+          <a
+            href="https://wa.me/447888620182"
+            class="contact-main-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MESSAGE BF BARBER <span aria-hidden="true">↗</span>
+          </a>
 
-            <h2>
-              YOUR NEXT<br>
-              MOVE STARTS <span class="gold-text">HERE.</span>
-            </h2>
+          <span class="contact-note">
+            Direct contact. No unnecessary steps.
+          </span>
+        </div>
 
-            <p>
-              Want to connect with BF Barber?
-              Reach out directly and start the conversation.
-            </p>
+        <div class="contact-visual reveal">
+          <img
+            src="assets/IMG_7098.jpeg"
+            alt="A close look at BF Barber's work"
+            loading="lazy"
+          >
 
-            <a
-              href="https://wa.me/447888620182"
-              class="button button-gold contact-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CONTACT BF BARBER <span>↗</span>
-            </a>
-
-            <span class="contact-note">
-              DIRECT CONTACT · WHATSAPP
-            </span>
+          <div class="contact-visual-caption">
+            <span>BF BARBER</span>
+            <span>CRAFT. CULTURE. IDENTITY.</span>
           </div>
-
         </div>
 
       </div>
-
     </section>
 
   </main>
 
   <!-- FOOTER -->
   <footer class="site-footer">
+    <div class="container footer-inner">
 
-    <div class="container">
+      <a href="#top" class="brand footer-brand" aria-label="Back to top">
+        <span class="brand-mark">BF<span>.</span></span>
+        <span class="brand-name">BARBER</span>
+      </a>
 
-      <div class="footer-main">
+      <p class="footer-copy">
+        © <span id="current-year"></span> BF Barber.
+        Built on precision.
+      </p>
 
-        <a href="#top" class="brand footer-brand" aria-label="BF Barber home">
-          <span class="brand-mark">BF</span>
-          <span class="brand-name">
-            <strong>BF BARBER</strong>
-            <small>CRAFT. CULTURE. IDENTITY.</small>
-          </span>
-        </a>
-
-        <p class="footer-statement">
-          MORE THAN A CUT. A STATEMENT.
-        </p>
-
-        <a href="#top" class="back-to-top">
-          BACK TO TOP ↑
-        </a>
-
-      </div>
-
-      <div class="footer-bottom">
-        <span>© <span id="current-year">2026</span> BF BARBER. ALL RIGHTS RESERVED.</span>
-        <span>CRAFTED WITH INTENTION.</span>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#work">The Work</a>
+        <a href="#contact">Contact</a>
+        <a
+          href="https://wa.me/447888620182"
+          target="_blank"
+          rel="noopener noreferrer"
+        >WhatsApp ↗</a>
       </div>
 
     </div>
-
   </footer>
 
 </body>
 </html>
-
